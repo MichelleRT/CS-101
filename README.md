@@ -7,7 +7,7 @@ Divide and conquer method of sorting. First, divide by finding the number q of t
   
 #InsertionSort:
 
-A simple algorithm that is less efficient in large lists. Builds the final sorted array one element at a time. 
+A simple algorithm that is less efficient in large lists. Builds the final sorted array one element at a time. Similar to SelectionSort, except sorts one element at a time, then places smaller element in the correct place; whereas SelectionSort finds the minimum element, then places the found element in the correct place. 
 
 #SelectionSort:
 
