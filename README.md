@@ -1,5 +1,5 @@
 # CS-101
-# Basic algorithms, data types, complexity analysis
+# Basic Algorithms, Data Types, Complexity Analysis, etc.
 
 BASIC ALGORITHMS:
 
