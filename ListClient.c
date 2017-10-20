@@ -1,8 +1,8 @@
-/*******************************************************
+/*****************************************************************
 * ListClient.c
-* Client program testing a List ADT module I wrote 
+* Client program (from class) testing a List ADT module I wrote 
 * Program language: C
-*******************************************************/
+*****************************************************************/
 
 #include<stdio.h>
 #include<stdlib.h>
