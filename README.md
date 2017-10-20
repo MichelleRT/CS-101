@@ -24,7 +24,7 @@ Example:
 #and nodes/vertices are denoted by u or v 
 #so (u, v) is an edge and w(u, v) is the weight of the edge
 
-      function Dijkstra(Graph, source):
+     function Dijkstra(Graph, source){
          dist[source] = 0                     // Distance from source to source is set to 0
          for each vertex v in Graph:            // Initializations
              if v != source
@@ -41,9 +41,8 @@ Example:
                     dist[u] = a            // Update distance of u 
 
        return dist[]
-    end function
-
-  }
+     end function
+     }
 
 
 
