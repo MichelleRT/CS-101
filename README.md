@@ -15,6 +15,10 @@ A simple algorithm that is less efficient in large lists. Builds the final sorte
 
 Also inefficient in large lists. Has O(n^2) time complexity (time complexity quantifying the amount of time taken by an algorithm to run as a function of the length of the string representing the input). Sorts an array by repeatedly finding the minimum element, considering ascending order of elements, from the unsorted part of the array and putting the found element at the beginning. Maintains two subarrays: the sorted array, and the remaining unsorted subarray.
 
+#Dijkstra's (Shortest Path) Algorithm
+
+Creates a tree of the shortest path from the starting vertex (the source), to another point or all other points in the graph. This algorithm avoids edges with a large weight. One stipulation to using the algorithm is that the graph needs to have a nonnegative weight on every edge, but the weighted graph can be either directed or undirected.   
+
 #Graphs
 
 #run times and asymmptotic growth rates
