@@ -24,13 +24,13 @@ Example:
 #and nodes/vertices are denoted by u or v 
 #so (u, v) is an edge and w(u, v) is the weight of the edge
 
-  function Dijkstra(Graph, source):
+      function Dijkstra(Graph, source):
          dist[source] = 0                     // Distance from source to source is set to 0
          for each vertex v in Graph:            // Initializations
              if v != source
                  dist[v] = infinity           // Unknown distance function from source to each node set to infinity
              add v to Q                         // All nodes initially in Q
-
+             
        while Q is not empty:                  // The main loop
             v = vertex in Q with min dist[v]  // In the first run-through, this vertex is the source node
             remove v from Q 
