@@ -1,19 +1,19 @@
 # CS-101
 # Basic Algorithms, Common Abstract Data Types, Complexity Analysis, etc.
 
-#MergeSort
+#MergeSort:
 
 Divide and conquer method of sorting. First, divide by finding the number q of the position midway between p and r (i.e. add p and r,    divide by 2, and round down), resulting in the subarrays array[p..q] and array[q+1..r]. Next, conquer by recursively (a recursion      algorithm being an algorithm that calls itself with smaller/simpler input values) sort the subarrays. Finally, merge the two sorted     subarrays into a sorted subarray array[p..q]. 
   
-#InsertionSort
+#InsertionSort:
 
 A simple algorithm that is less efficient in large lists. Builds the final sorted array one element at a time. Similar to SelectionSort, except sorts one element at a time, then places smaller element in the correct place; whereas SelectionSort finds the minimum element, then places the found element in the correct place. 
 
-#SelectionSort
+#SelectionSort:
 
 Also inefficient in large lists. Has O(n^2) time complexity (time complexity quantifying the amount of time taken by an algorithm to run as a function of the length of the string representing the input). Sorts an array by repeatedly finding the minimum element, considering ascending order of elements, from the unsorted part of the array and putting the found element at the beginning. Maintains two subarrays: the sorted array, and the remaining unsorted subarray.
 
-#Dijkstra's (Shortest Path) Algorithm
+#Dijkstra's (Shortest Path) Algorithm:
 
 Finds the shortest path tree from the starting vertex (the source), to another point or all other points in the graph by building a set of nodes that have minimum distance from the source. This algorithm avoids edges with a large weight. One stipulation to using the algorithm is that the graph needs to have a nonnegative weight on every edge, but the weighted graph can be either directed or undirected. 
 
@@ -43,6 +43,10 @@ Example:
        return dist[]
      end function
      }
+
+#White Path Theorem:
+
+This theorem is one of the properties of DFS (depth-first search of a graph) in which vertex v is a descendant of vertex u if and only if at the time d[u] when the search discovers u, v can be reached from u along a path consisting entirely of white vertices (in a forest). 
 
 
 
