@@ -48,6 +48,9 @@ Example:
 
 This theorem is one of the properties of DFS (depth-first search of a graph) in which vertex v is a descendant of vertex u if and only if at the time d[u] when the search discovers u, v can be reached from u along a path consisting entirely of white vertices (in a forest). 
 
+#DFS (Depth-First Search):
+
+This recursive algorithm backtracks on a path when in moving forward, there are no more nodes along the current path. 
 
 
 
