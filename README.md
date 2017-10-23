@@ -7,11 +7,11 @@ Divide and conquer method of sorting. First, divide by finding the number q of t
 
   Psuedocode:
   
-  if p < r
-    q = the floor of [(p+r)/2]
-    MergeSort(A, p, q)
-    MergeSort(A, q+1, r)
-    Merge(A, p, q, r)
+    if p < r
+      q = the floor of [(p+r)/2]
+      MergeSort(A, p, q)
+      MergeSort(A, q+1, r)
+      Merge(A, p, q, r)
   
   
 #InsertionSort:
@@ -20,14 +20,14 @@ A simple algorithm that is less efficient in large lists. Builds the final sorte
 
   Pseudocode:
   
-  for j=2 to n 
-    temp = A_j
-    i=j-1
-    while i>0 and temp < A_i
-      A_i+1 = A_i
-      i=i-1
-    A_i+1 = temp
-    
+    for j=2 to n 
+      temp = A_j
+      i=j-1
+      while i>0 and temp < A_i
+        A_i+1 = A_i
+        i=i-1
+      A_i+1 = temp
+
 
 #SelectionSort:
 
